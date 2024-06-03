@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="l_icone.ico" type="image/x-icon">
+    <title>Teste com imagens</title>
+    <style>
+        body{
+            background-color: brown;
+            color: white;
+            font: normal 20px TimesNewRoman;
+        }
+        img#wolverine{
+            width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando carga com imagens</h1>
+    <p>Abaixo você vai ver uma imagem na mesma pasta</p>
+    <img src="batman-200.png" alt="Imagem do Batman">
+    <br>
+    <p>Podemos também carregar uma imagem que está em uma sub-pasta</p>
+        <img src="imagens/batman-400.png" alt="Imagem do Batman 400">
+    <p>Podemos também carregar uma imagem externa</p>
+    <img id="wolverine" src="https://static.wikia.nocookie.net/nerdologiaheroespowers/images/5/5d/Wolverine.png/revision/latest?cb=20180601192623&path-prefix=pt-br" alt="Imagem do Wolverine">
+</body>
+</html>
