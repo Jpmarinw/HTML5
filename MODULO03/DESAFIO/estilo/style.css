@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'GosmickSans';
+    src: url(../fontes/GosmickSans.ttf), url(../fontes/GosmickSansBold.ttf), url(../fontes/GosmickSansBoldOblique.ttf), url(../fontes/GosmickSansOblique.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: black;
+    height: 200px;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'GosmickSans';
+}
+
+header p {
+    color: white;
+    margin: 1em;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+
+main p {
+    font-size: 2em;
+    margin: 0.5em;
+    font-family: 'GosmickSans';
+    font-style: italic;
+}
+
+.verso {
+    padding: 3em 0px 3em 1.5em;
+}
+
+#verso-1 {
+    background-color: white;
+   
+}
+
+#verso-2 {
+    background-image: url('../imagens/background001.jpg');
+}
+
+#verso-3 {
+    background-color: white;
+    
+}
+
+#verso-4 {
+    background-image: url('../imagens/background002.jpg');
+}
+
+#verso-5 {
+    background-color: white;  
+}
+
+footer {
+    height: 50px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: purple;
+    text-decoration: underline;
+}
