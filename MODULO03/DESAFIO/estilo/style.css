@@ -37,7 +37,6 @@ header a:hover {
     text-decoration: underline;
 }
 
-
 main p {
     font-size: 2em;
     margin: 0.5em;
@@ -51,24 +50,47 @@ main p {
 
 #verso-1 {
     background-color: white;
-   
 }
 
-#verso-2 {
+#verso-2-bg {
     background-image: url('../imagens/background001.jpg');
+    background-position: left bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: 3px 2px 2px black;
+}
+
+#verso-2{
+    background-color: rgba(0, 0, 0, 0.301);
+    padding: 2em 0em;
+    margin: 2em;
+    color: white;
+    width: 30em;
 }
 
 #verso-3 {
     background-color: white;
-    
+}
+
+#verso-4-bg {
+    background-image: url('../imagens/background002.jpg');
+    background-position: left bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: 3px 2px 2px black;
 }
 
 #verso-4 {
-    background-image: url('../imagens/background002.jpg');
+    background-color: rgba(0, 0, 0, 0.301);
+    padding: 2em 0em;
+    margin: 2em;
+    color: white;
+    width: 30em;
+    
 }
 
 #verso-5 {
-    background-color: white;  
+    background-color: white; 
 }
 
 footer {
